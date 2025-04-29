@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://comicvine.gamespot.com/a/uploads/scale_super/11111/111115290/3235211-9159803285-IVW5x.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+img {
+  margin: 10px 0;
+  border-radius: 8px;
+  max-width: 100%;
+}
